@@ -1,0 +1,102 @@
+:root {
+    --bg-color-one: #E8B9AB; 
+    --bg-color-two: #ADBCA5;
+    --bg-color-three: #0E103D;
+    --bg-color-four: #F9627D;
+    --bg-color-five: #3A86FF; 
+    --bg-color-six: #F7EF81;
+    --bg-color-seven: #99E1D9;
+    --bg-color-eight: #F78154;
+    --bg-color-nine: #E0D2C3;
+    --bg-color-ten: #FFADC6;
+    --bg-color-eleven: #33673B;
+    --bg-color-twelve: #8338EC;
+}
+
+body {
+    margin: 0px;
+}
+  
+.app {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.one {
+    grid-area: 1/1/2/2;
+    background-color: var(--bg-color-one);
+}
+
+.two {
+    grid-area: 1/2/2/3;
+    background-color: var(--bg-color-two);
+}
+
+.three {
+    grid-area: 1/3/2/4;
+    background-color: var(--bg-color-three);
+}
+
+.four {
+    grid-area: 2/1/3/2;
+    background-color: var(--bg-color-four);
+}
+
+.five {
+    grid-area: 2/2/3/3;
+    background-color: var(--bg-color-five);
+}
+
+.six {
+    grid-area: 2/3/3/4;
+    background-color: var(--bg-color-seven);
+}
+
+.seven {
+    grid-area: 1/4/5/6;
+    background-color: var(--bg-color-six);
+}
+
+.eight {
+    grid-area: 1/6/3/8;
+    background-color: var(--bg-color-eight);
+}
+
+.nine {
+    grid-area: 3/1/4/2;
+    background-color: var(--bg-color-five);
+}
+
+.ten {
+    grid-area: 4/1/5/2;
+    background-color: var(--bg-color-nine);
+}
+
+.eleven {
+    grid-area: 3/2/5/4;
+    background-color: var(--bg-color-ten);
+}
+
+.twelve {
+    grid-area: 3/6/4/7;
+    background-color: var(--bg-color-eleven);
+}
+
+.thirteen {
+    grid-area: 3/7/4/8;
+    background-color: var(--bg-color-twelve);
+}
+
+.fourteen {
+    grid-area: 4/6/5/7;
+    background-color: var(--bg-color-five);
+}
+
+.fiftheen {
+    grid-area: 4/7/5/8;
+    background-color: var(--bg-color-four);
+}
